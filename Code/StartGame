@@ -1,0 +1,27 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package coincollector;
+ import java.awt.*;
+ import javax.swing.JFrame;
+/**
+ *
+ * @author samue
+ */
+public class StartGame {
+    
+    public void makeNewGame(){
+        
+        Canvas gameMap = new Canvas();
+        
+        gameMap.setSize(100,100);
+        gameMap.setBackground(Color.ORANGE);
+        
+        //Make the Coin Collector
+        //Image coinCollector = Toolkit.getDefaultToolkit().getImage("Placeholder");
+        
+        
+    }
+}
